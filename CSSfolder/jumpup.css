@@ -1,0 +1,50 @@
+body{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(12, 213, 227);
+}
+main{
+  display: flex;
+  gap: 0.1cm;
+  div{
+    width: 10px;
+    height: 10px;
+    border-radius: 4rem;
+    background-color: rgb(5, 1, 0);
+    /* transform: rotate(20deg) ; */
+    animation: allround 0.7s infinite alternate;
+  }
+}
+
+div:nth-child(2) {
+  animation-delay: 0.2s;
+}
+
+div:last-child {
+  animation-delay: 0.4s;
+}
+
+@keyframes allround {
+  /* 0% {
+    transform: translateY(0px);
+  }
+  25% {
+    transform: translateY(15px);
+
+  }
+  50% {
+    transform: translateY(0px);
+  }
+  75% {
+    transform: translateY(15px);
+  }
+  100% {
+    transform: translateY(0px);
+  } */
+   to{
+    transform: translateY(-15px);
+    opacity: 0.5;
+   }
+}

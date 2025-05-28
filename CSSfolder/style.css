@@ -1,0 +1,60 @@
+.body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: baseline;
+}
+
+main, main, div{
+    width: 8em;
+    height: 8em;
+    border: o.25em solid white;
+    font-size: 4px;
+    border-radius: 2em;
+    position: absolute;
+    mix-blend-mode: screen;
+}
+main{
+    background-color: rgb(227, 197, 29);
+    animation: rotating 3s linear infinite;
+    position: absolute;
+    right: 50%;
+    top: 50%;
+}
+@keyframes rotating{
+    to{
+        transform: rotate(1turn);
+    }
+}
+main div{
+    animation: de-rotating 3s linear infinite;
+}
+@keyframes de-rotating{
+    from, to {
+        transform: rotate(0deg) scale(0.);
+    }
+    50%{
+        transform: rotate(-180deg) scale(1.2);
+    }
+}
+div:nth-child(1){
+    top: 5em;
+    left: 5em;
+    background-color: rgb(237, 13, 13);
+}
+div:nth-child(2){
+    top: -5em;
+    left: 5em;
+    background-color: rgb(43, 10, 234);
+}
+div:nth-child(3){
+    top: 5em;
+    left: -5em;
+    background-color: mediumpurple;
+}
+div:nth-child(4){
+    top: -5em;
+    left: -5em;
+    background-color: limegreen;
+}

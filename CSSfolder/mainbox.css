@@ -1,0 +1,27 @@
+body{
+    background-color: #2e003e;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 5rem;
+    font-weight: bolder;
+}
+main{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.pp{
+    font-size: 30px;
+    background: linear-gradient(to right, #ff00ae, hsl(66, 94%, 49%), #1b96f3, #ffa500);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.ppp{
+    margin: 0%;
+    background: linear-gradient(to right, #ff0000, #ffa500, #00ff00, #0000ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
