@@ -1,0 +1,41 @@
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+main{
+    display: flex;
+    gap: 0cm;
+}
+.divv{
+    background-color: red;
+    height: 20px;
+    width: 20px;
+    border-radius: 3rem;
+    animation: redone 1.5s linear infinite;
+
+}
+.divd{
+    background-color: rgb(30, 0, 255);
+    height: 20px;
+    width: 20px;
+    border-radius: 3rem;
+    animation: blueone 1.5s linear infinite;
+}
+@keyframes redone {
+    0%, 100%{
+        transform: translateX(0px);
+    }
+    50%{
+        transform: translateX(20px);
+    }
+}
+@keyframes blueone {
+    0%, 100%{
+        transform: translateX(0px);
+    }
+    50%{
+        transform: translateX(-20px);
+    }
+}

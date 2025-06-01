@@ -14,13 +14,14 @@ main{
     justify-content: center;
 }
 .pp{
-    font-size: 30px;
+    font-size: 40px;
     background: linear-gradient(to right, #ff00ae, hsl(66, 94%, 49%), #1b96f3, #ffa500);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 .ppp{
     margin: 0%;
+    font-size: 60px;
     background: linear-gradient(to right, #ff0000, #ffa500, #00ff00, #0000ff);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
