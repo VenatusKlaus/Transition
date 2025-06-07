@@ -1,12 +1,12 @@
 .body{
     height: 100vh;
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column; */
     align-items: center;
     justify-content: baseline;
 }
 
-main, main, div{
+main, div{
     width: 8em;
     height: 8em;
     border: o.25em solid white;
@@ -14,6 +14,7 @@ main, main, div{
     border-radius: 2em;
     position: absolute;
     mix-blend-mode: screen;
+    animation: de-rotating 3s linear infinite;
 }
 main{
     background-color: rgb(227, 197, 29);
@@ -23,12 +24,9 @@ main{
     top: 50%;
 }
 @keyframes rotating{
-    to{
+    to {
         transform: rotate(1turn);
     }
-}
-main div{
-    animation: de-rotating 3s linear infinite;
 }
 @keyframes de-rotating{
     from, to {
